@@ -1,5 +1,4 @@
-# Real-time Facial Emotion Recognition using OpenCV and Deepface
-![B7A63B4C-78C4-41B5-8C70-0302CAF84C6D_1_105_c](https://github.com/ajitharunai/Facial-Emotion-Recognition-with-OpenCV-and-Deepface/assets/89124776/0147d40a-43a1-4f65-9747-bca0d7456310)
+
 
 This project demonstrates the implementation of real-time facial emotion recognition using the `deepface` library and OpenCV. The objective is to capture live video from a webcam, identify faces within the video stream, and predict the corresponding emotions for each detected face. The emotions predicted are displayed in real-time on the video frames.
 
@@ -9,7 +8,7 @@ To streamline this process, we've utilized the `deepface` library, a deep learni
 
 ### Initial Setup:
 
-1. Clone the repository: Execute `git clone https://github.com/ajitharunai/Facial-Emotion-Recognition-with-OpenCV-and-Deepface/`.
+1. Clone the repository: 
 
 2. Navigate to the project directory: Run `cd Facial-Emotion-Recognition-using-OpenCV-and-Deepface`.
 
@@ -56,10 +55,6 @@ To streamline this process, we've utilized the `deepface` library, a deep learni
 13. Loop Termination: If the 'q' key is pressed, exit the loop.
 
 14. Cleanup: Release video capture resources and close all windows with `cap.release()` and `cv2.destroyAllWindows()`.
-
-If you find this project useful, consider giving it a ⭐ on the repository. The creator, [Ajith Kumar M](https://github.com/ajitharunai), invested time and effort into comprehending and implementing this efficient real-time emotion monitoring solution.
-
-Sure, let's break down the code step by step:
 
 1. Import required libraries:
 
